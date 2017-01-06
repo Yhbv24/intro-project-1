@@ -1,16 +1,28 @@
 /*********GENERAL*********/
 
-* {
-  margin: 0 auto;
-}
-
 #about /* This is the photo of me in the about section */ {
   height: 400px;
   width: 400px;
   border-radius: 100%;
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #3f3f3f;
   display: block;
+}
+
+.jumbotron {
+  font-size: 8em;
+  margin-top: 0;
+  height: 400px;
+  background-image: url(../img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-bottom: 2px solid #3f3f3f;
+}
+
+.container {
+  padding: 20px 0;
+  padding-top: 5px;
 }
 
 /*********BODY*********/
@@ -21,6 +33,7 @@
   margin: 5px 0 0 20px;
   float: left;
   text-align: center;
+  text-decoration: none;
 }
 
 #logo h2, h5 {
@@ -32,7 +45,7 @@
 
 nav {
   height: 60px;
-  background-color: #000;
+  background-color: #3f3f3f;
   text-align: right;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -59,31 +72,41 @@ nav a:hover {
 /*********FOOTER*********/
 
 footer {
+  display: inline-block;
   text-align: center;
-  border-top: 2px solid #000;
+  width: 100%;
+  border-top: 2px solid #3f3f3f;
 }
 
 footer img {
+  margin-top: 15px;
   height: 40px;
+}
+
+footer a {
+  display: inline-block;
 }
 
 /*********MEDIA SCREEN TABLET*********/
 
 @media screen and (max-width: 768px) {
-  nav a{
+  nav {
+    clear: both;
+    text-align: center;
+    margin-bottom: 175px;
+    width: 100%;
+  }
+
+  nav a {
+    margin-top: 0;
     display: block;
     text-align: center;
-    background-color: white;
+    color: #3f3f3f;
   }
 
   #logo {
-    margin: 50%;
-    text-align: center;
+    margin: 5px 0 0 0;
+    width: 100%;
+    margin-bottom: 5px;
   }
-
-  #logo h2, h5 {
-    color: #e8e8ee;
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-  }
+}
