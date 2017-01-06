@@ -15,6 +15,10 @@ __The site will include a small portfolio of previous work in HTML and CSS, as w
 
 __This project can be found on my GitHub page, which you can reach at https://github.com/Yhbv24 .__
 
+## Known Bugs
+
+__On the "About Me" section, the photo does not center within its element, so it may look strange when resizing the window or viewing on a mobile device.__
+
 ## Licensing
 ------
 
