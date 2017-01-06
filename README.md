@@ -18,6 +18,9 @@ __This project can be found on my GitHub page, which you can reach at https://gi
 ## Known Bugs
 
 __On the "About Me" section, the photo does not center within its element, so it may look strange when resizing the window or viewing on a mobile device.__
+* _Bug since fixed_
+
+__When in the "mobile" media screen (768px or smaller), hovering does not seem to change the color of the text.__
 
 ## Licensing
 ------
