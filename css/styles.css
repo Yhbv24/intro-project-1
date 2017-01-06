@@ -1,12 +1,40 @@
 /*********GENERAL*********/
 
+* {
+  margin: 0 auto;
+}
+
+#about /* This is the photo of me in the about section */ {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  text-align: center;
+  border: 1px solid black;
+  display: block;
+}
+
 /*********BODY*********/
 
 /*********NAV BAR*********/
 
+#logo {
+  margin: 5px 0 0 20px;
+  float: left;
+  text-align: center;
+}
+
+#logo h2, h5 {
+  color: #e8e8ee;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
 nav {
   height: 60px;
   background-color: #000;
+  text-align: right;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 nav a {
@@ -15,7 +43,6 @@ nav a {
   padding: 0 15px;
   text-decoration: none;
   font-size: 2.5em;
-  font-family: 'Josefin Sans', sans-serif;
   color: #e8e8ee;
   text-decoration: none;
 }
@@ -26,7 +53,37 @@ nav a:visited {
 
 nav a:hover {
   text-decoration: none;
-  color:
+  color: #003399;
 }
 
 /*********FOOTER*********/
+
+footer {
+  text-align: center;
+  border-top: 2px solid #000;
+}
+
+footer img {
+  height: 40px;
+}
+
+/*********MEDIA SCREEN TABLET*********/
+
+@media screen and (max-width: 768px) {
+  nav a{
+    display: block;
+    text-align: center;
+    background-color: white;
+  }
+
+  #logo {
+    margin: 50%;
+    text-align: center;
+  }
+
+  #logo h2, h5 {
+    color: #e8e8ee;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
