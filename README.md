@@ -22,6 +22,8 @@ __On the "About Me" section, the photo does not center within its element, so it
 
 __When in the "mobile" media screen (768px or smaller), hovering does not seem to change the color of the text.__
 
+__When in the "mobile" media screen (768px or smaller), there is a hyperlink to the index.html page at the very top of the page. Difficult to click, but it's there, and could cause problems.__
+
 ## Licensing
 ------
 

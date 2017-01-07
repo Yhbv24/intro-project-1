@@ -26,10 +26,12 @@
   position: absolute;
   top: 200px;
   left: 200px;
+  right: 50px;
   font-family: 'Josefin Sans', sans-serif;
   color: #bdcccf;
-  background: rgba(0, 0, 0, .4);
-  padding: 7px 15px;
+  background-color: rgba(0, 0, 0, .4);
+  padding: 15px;
+  line-height: 1.3em;
   border-radius: 3px;
 }
 
@@ -189,6 +191,7 @@ footer a:hover {
 
   #welcomecopy {
     position: absolute;
+    line-height: 1.3em;
     top: 400px;
     left: 50px;
     right: 50px;
